@@ -69,6 +69,9 @@ body {
   #menu-btn {
     display: inline-block;
   }
+  #menu-btn.fa-times {
+    transform: rotate(180deg);
+  }
   .header {
     padding: 2rem;
   }
@@ -80,6 +83,10 @@ body {
     background: #000;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header .navbar.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   .header .navbar a {
     display: block;

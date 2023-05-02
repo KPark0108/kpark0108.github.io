@@ -90,6 +90,11 @@ body{
 
     #menu-btn{
         display:inline-block;
+
+        &.fa-times{
+            transform: rotate(180deg);
+        }
+
     }
     
     .header{
@@ -102,6 +107,10 @@ body{
             right: 0;
             background: $black;
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+            &.active{
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            }
 
             a{
                 display: block;
