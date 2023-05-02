@@ -45,6 +45,9 @@ section {
   color: #fff;
   font-size: 2rem;
 }
+.header .logo-mobile {
+  display: none;
+}
 .header .navbar a {
   display: inline-block;
   padding: 1.5rem 2rem;
@@ -52,7 +55,7 @@ section {
   font-size: 1.5rem;
 }
 .header .navbar a:hover {
-  background: #2d13a1;
+  background: #eb8604;
 }
 
 #menu-btn {
@@ -79,7 +82,7 @@ section {
 }
 .home .content span {
   font-size: 2rem;
-  color: #2d13a1;
+  color: #eb8604;
   display: block;
 }
 .home .content h3 {
@@ -139,5 +142,18 @@ section {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+  .header {
+    padding: 0.2rem 1rem;
+  }
+  .header .logo {
+    display: none;
+  }
+  .header .logo-mobile {
+    display: block;
+  }
+  .header .logo-mobile .dps-logo {
+    width: 70px;
+    height: 70px;
   }
 }/*# sourceMappingURL=style.css.map */

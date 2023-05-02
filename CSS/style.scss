@@ -15,7 +15,7 @@ $black: #000;
 $white: #fff;
 $light-white: #aaa;
 $light-bg: #111;
-$blue: #2d13a1;
+$orange: #eb8604;
 
 html{
     font-size: 62.5%;
@@ -54,6 +54,10 @@ section{
         font-size: 2rem;
     }
 
+    .logo-mobile{
+        display: none;
+    }
+
     .navbar a{
         display: inline-block;
         padding: 1.5rem 2rem;
@@ -61,7 +65,7 @@ section{
         font-size: 1.5rem;
 
         &:hover{
-            background: $blue;
+            background: $orange;
         }
     }
 }
@@ -91,7 +95,7 @@ section{
 
         span{
             font-size: 2rem;
-            color: $blue;
+            color: $orange;
             display: block;
         }
 
@@ -178,5 +182,25 @@ section{
 
     html{
         font-size: 55%;
+    }
+
+    .header{
+
+        padding: .2rem 1rem;
+        
+        .logo{
+            display: none;
+        }
+        .logo-mobile{
+            display: block;
+
+            .dps-logo{
+                width: 70px;
+                height: 70px;
+                
+            }
+        }
+
+
     }
 }
