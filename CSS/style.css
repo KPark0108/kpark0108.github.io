@@ -38,6 +38,7 @@ section {
   right: 0;
   padding: 0.9%;
   background: black;
+  z-index: 1000;
 }
 .header .logo {
   font-weight: bolder;
@@ -96,6 +97,15 @@ section {
   }
   section {
     padding: 3rem 2rem;
+  }
+  .home .slide {
+    padding: 2rem 5%;
+  }
+  .home .slide .content {
+    width: 50%;
+  }
+  .home .slide .content h3 {
+    font-size: 4rem;
   }
 }
 @media (max-width: 768px) {
