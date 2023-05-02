@@ -73,6 +73,19 @@ section {
   display: flex;
   align-items: center;
 }
+.home .content {
+  width: 60rem;
+}
+.home .content span {
+  font-size: 2rem;
+  color: #2d13a1;
+  display: block;
+}
+.home .content h3 {
+  font-size: 5rem;
+  color: #fff;
+  padding: 1rem 0;
+}
 
 @media (max-width: 991px) {
   html {

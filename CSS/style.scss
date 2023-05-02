@@ -84,6 +84,22 @@ section{
         display: flex;
         align-items: center;
     }
+
+    .content{
+        width: 60rem;
+
+        span{
+            font-size: 2rem;
+            color: $blue;
+            display: block;
+        }
+
+        h3{
+            font-size: 5rem;
+            color: $white;
+            padding: 1rem 0;
+        }
+    }
 }
 
 
