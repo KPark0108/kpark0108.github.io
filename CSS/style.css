@@ -91,6 +91,47 @@ section {
   padding: 1rem 0;
 }
 
+.about {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 8rem;
+}
+.about .content {
+  flex: 1 1 42rem;
+}
+.about .content span {
+  font-size: 2rem;
+  color: #eb8604;
+}
+.about .content .title {
+  font-size: 4rem;
+  color: #fff;
+  margin-top: 5rem;
+}
+.about .content p {
+  font-size: 1.5rem;
+  color: #aaa;
+  padding: 1rem 0;
+}
+.about .content .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.about .content .box {
+  flex: 1 1 20rem;
+}
+.about .content .box h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+.about .content .box i {
+  padding-right: 1.5rem;
+  color: #eb8604;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
