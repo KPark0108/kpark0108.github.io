@@ -28,6 +28,29 @@ section {
   padding: 5rem 9%;
 }
 
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.heading::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50);
+  height: 0.1rem;
+  width: 100%;
+  background-color: #aaa;
+  z-index: -1;
+}
+.heading span {
+  font-size: 3rem;
+  color: #eb8604;
+  background: #111;
+  padding: 0.5rem 1.5rem;
+}
+
 .header {
   position: fixed;
   display: flex;
