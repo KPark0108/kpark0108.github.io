@@ -38,7 +38,6 @@ section {
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translateY(-50);
   height: 0.1rem;
   width: 100%;
   background-color: #aaa;
@@ -154,6 +153,48 @@ section {
 .about .content .box i {
   padding-right: 1.5rem;
   color: #eb8604;
+}
+
+.features .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  gap: 1.5rem;
+  gap: 0;
+}
+.features .box-container .box {
+  background: black;
+}
+.features .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+.features .box-container .box .image {
+  height: 30rem;
+  width: 100%;
+  overflow: hidden;
+}
+.features .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.features .box-container .box .content {
+  padding: 2rem;
+  text-align: center;
+}
+.features .box-container .box .content img {
+  height: 9rem;
+  margin-bottom: 1rem;
+}
+.features .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #eb8604;
+}
+.features .box-container .box .content p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+  padding: 1rem 0;
 }
 
 @media (max-width: 991px) {
