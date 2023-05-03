@@ -131,6 +131,7 @@ section{
             font-size: 1.5rem;
             color: $light-white;
             padding: 1rem 0;
+            line-height: 2;
         }
 
         .box-container{
@@ -229,6 +230,14 @@ section{
                 display: block;
                 font-size: 2rem;
             }
+        }
+    }
+
+    .about{
+        gap: 3rem;
+
+        .content .title{
+            font-size: 3rem;
         }
     }
 }

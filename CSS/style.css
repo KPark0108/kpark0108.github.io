@@ -113,6 +113,7 @@ section {
   font-size: 1.5rem;
   color: #aaa;
   padding: 1rem 0;
+  line-height: 2;
 }
 .about .content .box-container {
   display: flex;
@@ -179,6 +180,12 @@ section {
   .header .navbar a {
     display: block;
     font-size: 2rem;
+  }
+  .about {
+    gap: 3rem;
+  }
+  .about .content .title {
+    font-size: 3rem;
   }
 }
 @media (max-width: 450px) {
