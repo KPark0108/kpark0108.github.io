@@ -126,6 +126,7 @@ section {
     top: 99%;
     left: 0;
     right: 0;
+    text-align: center;
     background: #000;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -150,7 +151,7 @@ section {
     display: none;
   }
   .header .logo-mobile {
-    display: block;
+    display: inline-block;
   }
   .header .logo-mobile .dps-logo {
     width: 70px;

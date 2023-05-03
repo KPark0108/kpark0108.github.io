@@ -12,12 +12,15 @@ window.onscroll = () =>{
 }
 
 
+//HOME-slider
+
 var swiper = new Swiper(".home-slider", {
+    slidesPerView: 1,
     spaceBetween: 30,
-    centeredSlides: true,
+    loop: true,
     autoplay: {
       delay: 3000,
-      disableOnInteraction: false,
+      disableOnInteraction: true,
     },
     pagination: {
       el: ".swiper-pagination",
