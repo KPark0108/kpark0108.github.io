@@ -155,6 +155,10 @@ section {
   color: #eb8604;
 }
 
+.features {
+  padding: 0;
+}
+
 .features .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
@@ -168,7 +172,7 @@ section {
   transform: scale(1.1);
 }
 .features .box-container .image {
-  height: 30rem;
+  height: 50rem;
   width: 100%;
   overflow: hidden;
 }
@@ -179,13 +183,8 @@ section {
      object-fit: cover;
 }
 .features .box-container .content {
-  padding: 2rem;
+  padding: 4rem;
   text-align: center;
-}
-.features .box-container .content img {
-  height: 9rem;
-  margin-bottom: 1rem;
-  filter: invert(1);
 }
 .features .box-container .content h3 {
   font-size: 2rem;
