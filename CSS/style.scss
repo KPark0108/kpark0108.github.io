@@ -234,14 +234,15 @@ section{
 
     
     .banner{
-                background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), (url(../images/banner-bg.jpg) no-repeat);
-                background-size: cover;
-                background-position: center;
-                background-attachment: fixed;
-                text-align: center;
-                padding: 10rem;
-                
-
+        padding: 0;
+         .banner-container{
+            background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), (url(../images/banner-bg.jpg) no-repeat);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            text-align: center;
+            padding: 10rem;
+         }       
         span{
             font-size: 3rem;
             color: $orange;
@@ -386,6 +387,13 @@ section{
 
 }
 
+@media (max-width:844px){
+    .features .box-container{
+        display: flex;
+        gap: 0;
+    }
+}
+
 @media (max-width:768px){
 
     #menu-btn{
@@ -432,7 +440,6 @@ section{
             font-size: 3rem;
         }
     }
-
 
 }
 
