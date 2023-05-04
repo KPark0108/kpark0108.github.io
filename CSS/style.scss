@@ -473,13 +473,20 @@ section{
     }
 
     .banner{
-        background-attachment:initial;
-        span{
-            font-size: 2rem;
+        .banner-container{
+            background-attachment:initial;
+            span{
+                font-size: 1.8rem;
+            }
+    
+            h3{
+                font-size: 1.8rem;
+            }
+            
+            p{
+                font-size: 1.3;
+            }
         }
-
-        h3{
-            font-size: 2.5rem;
-        }
+        
     }
 }

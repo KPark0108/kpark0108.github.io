@@ -382,13 +382,16 @@ section {
     width: 70px;
     height: 70px;
   }
-  .banner {
+  .banner .banner-container {
     background-attachment: initial;
   }
-  .banner span {
-    font-size: 2rem;
+  .banner .banner-container span {
+    font-size: 1.8rem;
   }
-  .banner h3 {
-    font-size: 2.5rem;
+  .banner .banner-container h3 {
+    font-size: 1.8rem;
+  }
+  .banner .banner-container p {
+    font-size: 1.3;
   }
 }/*# sourceMappingURL=style.css.map */
