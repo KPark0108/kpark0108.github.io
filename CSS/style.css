@@ -369,4 +369,18 @@ section {
     width: 70px;
     height: 70px;
   }
+  .banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banner-bg.jpg) no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  .banner span {
+    font-size: 2rem;
+  }
+  .banner h3 {
+    font-size: 3rem;
+  }
 }/*# sourceMappingURL=style.css.map */

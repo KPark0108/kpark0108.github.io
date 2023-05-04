@@ -234,12 +234,13 @@ section{
 
     
     .banner{
-            background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), (url(../images/banner-bg.jpg) no-repeat);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            text-align: center;
-            padding: 10rem;
+                background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), (url(../images/banner-bg.jpg) no-repeat);
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                text-align: center;
+                padding: 10rem;
+                
 
         span{
             font-size: 3rem;
@@ -458,5 +459,21 @@ section{
             }
         }
 
+    }
+
+    .banner{
+        background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), (url(../images/banner-bg.jpg) no-repeat);
+        background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), (url(../images/banner-bg.jpg) no-repeat);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        text-align: center;
+        span{
+            font-size: 2rem;
+        }
+
+        h3{
+            font-size: 3rem;
+        }
     }
 }
