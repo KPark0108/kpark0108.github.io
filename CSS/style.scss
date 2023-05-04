@@ -387,14 +387,14 @@ section{
 
 }
 
-@media (max-width:844px){
-    .features .box-container{
-        display: flex;
-        gap: 0;
-    }
-}
+
 
 @media (max-width:768px){
+
+        .features .box-container{
+            display: flex;
+            gap: 0;
+        }
 
     #menu-btn{
         display:inline-block;
@@ -445,6 +445,9 @@ section{
 
 @media (max-width:450px){
 
+    .features .box-container{
+        display: grid;
+    }
     html{
         font-size: 55%;
     }
