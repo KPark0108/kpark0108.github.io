@@ -194,6 +194,7 @@ section{
     .box{
         background: black;
 
+        }
         &:hover .image img{
             transform: scale(1.1);
         }
@@ -216,6 +217,7 @@ section{
             img{
                 height: 9rem;
                 margin-bottom: 1rem;
+                filter: invert(1);
             }
 
             h3{
@@ -231,7 +233,41 @@ section{
             }
         }
     }
-}
+
+    .bmr{
+        @include grid(32rem);
+
+        .information{
+
+            span{
+                font-size: 2rem;
+                color: $orange;
+            }
+
+            h3{
+                font-size: 3rem;
+                padding-top: .5rem;
+                color: $white;
+            }
+
+            p{
+                line-height: 2;
+                padding: 1rem 0;
+                font-size: 1.5rem;
+                color: $light-white;
+            }
+        }
+
+        .calculator{
+            text-align: center;
+            padding: 2rem;
+
+            h3{
+                font-size: 2.5rem;
+                margin: 1rem 0;
+            }
+        }
+    }
 
 
 
@@ -266,6 +302,7 @@ section{
             }
         }
     }
+
 }
 
 @media (max-width:768px){
@@ -314,6 +351,8 @@ section{
             font-size: 3rem;
         }
     }
+
+
 }
 
 @media (max-width:450px){
@@ -338,7 +377,6 @@ section{
                 
             }
         }
-
 
     }
 }
