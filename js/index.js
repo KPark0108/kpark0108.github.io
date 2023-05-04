@@ -40,12 +40,18 @@ var swiper = new Swiper(".home-slider", {
     const gender = document.getElementById("gender").value;
     const activityLevel = document.getElementById("activity-level").value;
   
+        // Check if age is within range
+     if (age < 0 || age > 100) {
+        document.getElementById("result").textContent = "Please enter a valid age between 0 and 100.";
+        return;
+     }
+
       // Check if all input fields have values
-  if (!weight || !height || !age || !gender || !activityLevel) {
-    document.getElementById("result").textContent = "Please fill out all fields.";
-    return;
-  }
-  
+    if (!weight || !height || !age || !gender || !activityLevel) {
+        document.getElementById("result").textContent = "Please fill out all fields.";
+        return;
+    }
+
     const bmr = calculateBMR(weight, height, age, gender);
     const tdee = calculateTDEE(bmr, activityLevel);
   

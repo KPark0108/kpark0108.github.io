@@ -263,7 +263,7 @@ section{
             margin: 0 auto;
             padding: 20px;
             border: 1px solid #ccc;
-            border-radius: 5px;
+            border-radius: .5rem;
             text-align: center;
           }
           
@@ -288,7 +288,7 @@ section{
             width: 70%;
             padding: 1rem;
             margin-bottom: 2rem;
-            border: 1px solid #ccc;
+            border: .1rem solid #ccc;
             border-radius: .5rem;
             font-size: 1.6rem;
           }
@@ -300,10 +300,10 @@ section{
           button {
             background-color: #4CAF50;
             color: white;
-            padding: 10px 20px;
+            padding: 1rem 2rem;
             border: none;
-            border-radius: 5px;
-            font-size: 16px;
+            border-radius: .5rem;
+            font-size: 1.6rem;
             cursor: pointer;
           }
           
@@ -312,9 +312,10 @@ section{
           }
           
           #result {
-            font-size: 24px;
+            font-size: 2.4rem;
             font-weight: bold;
-            margin-top: 20px;
+            margin-top: 2rem;
+            color: $orange;
           }
     }
 
