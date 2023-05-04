@@ -446,7 +446,8 @@ section{
 @media (max-width:450px){
 
     .features .box-container{
-        display: grid;
+        @include grid(32rem);
+        gap: 0;
     }
     html{
         font-size: 55%;
