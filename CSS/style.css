@@ -198,33 +198,76 @@ section {
   padding: 1rem 0;
 }
 
-.bmr {
+.tdee {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
   gap: 1.5rem;
 }
-.bmr .information span {
+.tdee .information span {
   font-size: 2rem;
   color: #eb8604;
 }
-.bmr .information h3 {
+.tdee .information h3 {
   font-size: 3rem;
   padding-top: 0.5rem;
   color: #fff;
 }
-.bmr .information p {
+.tdee .information p {
   line-height: 2;
   padding: 1rem 0;
   font-size: 1.5rem;
   color: #aaa;
 }
-.bmr .calculator {
+.tdee .calculator {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   text-align: center;
-  padding: 2rem;
 }
-.bmr .calculator h3 {
-  font-size: 2.5rem;
-  margin: 1rem 0;
+.tdee label {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.tdee h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+.tdee label {
+  display: block;
+  margin-bottom: 1rem;
+}
+.tdee input[type=number],
+.tdee select {
+  width: 70%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+}
+.tdee .activity {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.tdee button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.tdee button:hover {
+  background-color: #3e8e41;
+}
+.tdee #result {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 @media (max-width: 991px) {
