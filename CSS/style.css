@@ -197,6 +197,32 @@ section {
   padding: 1rem 0;
 }
 
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+.banner span {
+  font-size: 3rem;
+  color: #eb8604;
+}
+.banner h3 {
+  padding-top: 1rem;
+  font-size: 4rem;
+  color: #fff;
+  text-transform: uppercase;
+  font: optional;
+}
+.banner p {
+  margin: 1rem auto;
+  max-width: 60rem;
+  font-size: 1.5rem;
+  color: #aaa;
+  line-height: 2;
+}
+
 .tdee {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));

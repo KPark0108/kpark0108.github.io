@@ -232,6 +232,37 @@ section{
         }
     }
 
+    
+    .banner{
+        background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(../images/banner-bg.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        text-align: center;
+
+        span{
+            font-size: 3rem;
+            color: $orange;
+        }
+
+        h3{
+            padding-top: 1rem;
+            font-size: 4rem;
+            color: $white;
+            text-transform: uppercase;
+            font: optional;
+        }
+
+        p{
+            margin: 1rem auto;
+            max-width: 60rem;
+            font-size: 1.5rem;
+            color: $light-white;
+            line-height: 2;
+        }
+    }
+
+
     .tdee{
         @include grid(32rem);
 
