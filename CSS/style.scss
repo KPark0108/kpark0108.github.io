@@ -472,6 +472,14 @@ section{
 
     }
 
+    .about {
+        .content{
+            .box{
+                flex: auto;
+            }
+        }
+    }
+
     .banner{
         .banner-container{
             background-attachment:initial;
