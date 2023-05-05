@@ -28,10 +28,6 @@ section {
   padding: 5rem 9%;
 }
 
-footer {
-  padding: 0;
-}
-
 .heading {
   text-align: center;
   margin-bottom: 2rem;
@@ -428,6 +424,16 @@ footer {
   .header .logo-mobile .dps-logo {
     width: 70px;
     height: 70px;
+  }
+  .about .content .box-container {
+    text-align: left;
+    padding-left: 3rem;
+  }
+  .about .content .box {
+    flex: 1 1 12rem;
+  }
+  .about .content .box .box-p {
+    padding-left: 3rem;
   }
   .banner .banner-container {
     background-attachment: initial;
