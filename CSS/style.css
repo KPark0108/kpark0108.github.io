@@ -383,7 +383,7 @@ section {
     height: 70px;
   }
   .about .content .box {
-    flex: auto;
+    flex: 1 1 12rem;
   }
   .banner .banner-container {
     background-attachment: initial;
