@@ -304,6 +304,48 @@ footer {
   color: #eb8604;
 }
 
+.contact {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 8rem;
+}
+.contact .content {
+  flex: 1 1 42rem;
+}
+.contact .content span {
+  font-size: 2rem;
+  color: #eb8604;
+}
+.contact .content .title {
+  font-size: 4rem;
+  color: #fff;
+  margin-top: 5rem;
+}
+.contact .content p {
+  font-size: 1.5rem;
+  color: #aaa;
+  padding: 1rem 0;
+  line-height: 2;
+}
+.contact .content .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.contact .content .box {
+  flex: 1 1 20rem;
+}
+.contact .content .box h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+.contact .content .box i {
+  padding-right: 1.5rem;
+  color: #eb8604;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -362,6 +404,7 @@ footer {
   .about .content .title {
     font-size: 3rem;
   }
+
 }
 @media (max-width: 450px) {
   .features .box-container {
