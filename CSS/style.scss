@@ -16,6 +16,8 @@ $white: #fff;
 $light-white: #aaa;
 $light-bg: #111;
 $orange: #eb8604;
+$width: 100vw;
+$height: calc(10/22*#{$width});
 
 @mixin grid($val) {
     display: grid;
@@ -233,38 +235,100 @@ section{
     }
 
     
+    // .banner{
+    //     padding: 0;
+    //      .banner-container{
+    //         background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), (url(../images/banner-bg.jpg) no-repeat);
+    //         background-size: cover;
+    //         background-position: center;
+    //         background-attachment: fixed;
+    //         text-align: center;
+    //         padding: 10rem;
+    //      }       
+    //     span{
+    //         font-size: 3rem;
+    //         color: $orange;
+    //     }
+
+    //     h3{
+    //         padding-top: 1rem;
+    //         font-size: 4rem;
+    //         color: $white;
+    //         text-transform: uppercase;
+    //         font: optional;
+    //     }
+
+    //     p{
+    //         margin: 1rem auto;
+    //         max-width: 60rem;
+    //         font-size: 1.5rem;
+    //         color: $light-white;
+    //         line-height: 2;
+    //     }
+    // }
+
     .banner{
         padding: 0;
-         .banner-container{
-            background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), (url(../images/banner-bg.jpg) no-repeat);
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            text-align: center;
-            padding: 10rem;
-         }       
-        span{
-            font-size: 3rem;
-            color: $orange;
-        }
+        text-align: center;
+        .parallax-wrapper {
+            width: $width;
+            height: $height;
+            position: relative;
+            display: block;
+            margin: auto;
+        
+            div.content-wrapper {
+                overflow-y: scroll;
+                position: absolute;
+                clip: rect(0, $width, $height, 0);
+        
+        
+                div.image-background {
+        
+                    &.bg1 {
+                        background-image: url('/images/banner-bg.jpg');
+                    }
+        
+                    transform: translate3d(0, 0, 0);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: fixed;
+                    top: 0px;
+        
+                    width: $width;
+                    height: 100vh;
+                    z-index: -10;
+                }
+                .info{
+                    width: 100vw;
+                        
+                    span{
+                    font-size: 3rem;
+                    color: $orange;
+                        }
 
-        h3{
-            padding-top: 1rem;
-            font-size: 4rem;
-            color: $white;
-            text-transform: uppercase;
-            font: optional;
-        }
+                    h3{
+                        padding-top: 1rem;
+                        font-size: 4rem;
+                        color: $white;
+                        text-transform: uppercase;
+                        font: optional;
+                    }
 
-        p{
-            margin: 1rem auto;
-            max-width: 60rem;
-            font-size: 1.5rem;
-            color: $light-white;
-            line-height: 2;
+                    p{
+                        margin: 1rem auto;
+                        max-width: 60rem;
+                        font-size: 1.5rem;
+                        color: $light-white;
+                        line-height: 2;
+                    }
+                }
+        
+            }
+        
         }
     }
-
+   
 
     .tdee{
         @include grid(32rem);
@@ -488,18 +552,27 @@ section{
     }
 
     .banner{
-        .banner-container{
-            background-attachment:initial;
-            span{
-                font-size: 1.8rem;
-            }
+        // .banner-container{
+        //     background-attachment:initial;
+        //     span{
+        //         font-size: 1.8rem;
+        //     }
     
-            h3{
-                font-size: 1.8rem;
-            }
+        //     h3{
+        //         font-size: 1.8rem;
+        //     }
             
-            p{
-                font-size: 1.3;
+        //     p{
+        //         font-size: 1.3;
+        //     }
+        // }
+        $height: 173vw;
+
+        div.parallax-wrapper {
+            height: $height;
+    
+            div.content-wrapper {
+                clip: rect(0, $width, $height, 0);
             }
         }
         

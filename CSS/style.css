@@ -199,27 +199,48 @@ section {
 
 .banner {
   padding: 0;
-}
-.banner .banner-container {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banner-bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   text-align: center;
-  padding: 10rem;
 }
-.banner span {
+.banner .parallax-wrapper {
+  width: 100vw;
+  height: calc(10/22*100vw);
+  position: relative;
+  display: block;
+  margin: auto;
+}
+.banner .parallax-wrapper div.content-wrapper {
+  overflow-y: scroll;
+  position: absolute;
+  clip: rect(0, 100vw, calc(10/22*100vw), 0);
+}
+.banner .parallax-wrapper div.content-wrapper div.image-background {
+  transform: translate3d(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+}
+.banner .parallax-wrapper div.content-wrapper div.image-background.bg1 {
+  background-image: url("/images/banner-bg.jpg");
+}
+.banner .parallax-wrapper div.content-wrapper .info {
+  width: 100vw;
+}
+.banner .parallax-wrapper div.content-wrapper .info span {
   font-size: 3rem;
   color: #eb8604;
 }
-.banner h3 {
+.banner .parallax-wrapper div.content-wrapper .info h3 {
   padding-top: 1rem;
   font-size: 4rem;
   color: #fff;
   text-transform: uppercase;
   font: optional;
 }
-.banner p {
+.banner .parallax-wrapper div.content-wrapper .info p {
   margin: 1rem auto;
   max-width: 60rem;
   font-size: 1.5rem;
@@ -300,48 +321,6 @@ section {
   color: #eb8604;
 }
 
-.contact {
-  display: flex;
-  text-align: center;
-  flex-wrap: wrap;
-  gap: 8rem;
-}
-.contact .content {
-  flex: 1 1 42rem;
-}
-.contact .content span {
-  font-size: 2rem;
-  color: #eb8604;
-}
-.contact .content .title {
-  font-size: 4rem;
-  color: #fff;
-  margin-top: 5rem;
-}
-.contact .content p {
-  font-size: 1.5rem;
-  color: #aaa;
-  padding: 1rem 0;
-  line-height: 2;
-}
-.contact .content .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 2rem;
-}
-.contact .content .box {
-  flex: 1 1 20rem;
-}
-.contact .content .box h3 {
-  font-size: 2rem;
-  color: #fff;
-}
-.contact .content .box i {
-  padding-right: 1.5rem;
-  color: #eb8604;
-}
-
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -400,7 +379,6 @@ section {
   .about .content .title {
     font-size: 3rem;
   }
-
 }
 @media (max-width: 450px) {
   .features .box-container {
@@ -435,16 +413,10 @@ section {
   .about .content .box .box-p {
     padding-left: 3rem;
   }
-  .banner .banner-container {
-    background-attachment: initial;
+  .banner div.parallax-wrapper {
+    height: 173vw;
   }
-  .banner .banner-container span {
-    font-size: 1.8rem;
-  }
-  .banner .banner-container h3 {
-    font-size: 1.8rem;
-  }
-  .banner .banner-container p {
-    font-size: 1.3;
+  .banner div.parallax-wrapper div.content-wrapper {
+    clip: rect(0, 100vw, 173vw, 0);
   }
 }/*# sourceMappingURL=style.css.map */
