@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #111;
 }
 
 .social-icon,
