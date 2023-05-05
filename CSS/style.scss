@@ -473,8 +473,16 @@ section{
 
     .about {
         .content{
+            .box-container{
+                text-align: left;
+                padding-left: 3rem;
+            }
             .box{
                 flex: 1 1 12rem;
+
+                .box-p{
+                    padding-left: 3rem;
+                }
             }
         }
     }
