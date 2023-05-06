@@ -203,17 +203,17 @@ section {
 }
 .banner .parallax-wrapper {
   width: 100vw;
-  height: calc(10/22*100vw);
+  height: calc(10/28*100vw);
   position: relative;
   display: block;
   margin: auto;
 }
-.banner .parallax-wrapper div.content-wrapper {
+.banner .parallax-wrapper .content-wrapper {
   overflow-y: scroll;
   position: absolute;
-  clip: rect(0, 100vw, calc(10/22*100vw), 0);
+  clip: rect(0, 100vw, calc(10/28*100vw), 0);
 }
-.banner .parallax-wrapper div.content-wrapper div.image-background {
+.banner .parallax-wrapper .content-wrapper .image-background {
   transform: translate3d(0, 0, 0);
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,24 +223,26 @@ section {
   height: 100vh;
   z-index: -10;
 }
-.banner .parallax-wrapper div.content-wrapper div.image-background.bg1 {
+.banner .parallax-wrapper .content-wrapper .image-background.bg1 {
   background-image: url("/images/banner-bg.jpg");
 }
-.banner .parallax-wrapper div.content-wrapper .info {
+.banner .parallax-wrapper .content-wrapper .info {
   width: 100vw;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
-.banner .parallax-wrapper div.content-wrapper .info span {
+.banner .parallax-wrapper .content-wrapper .info span {
   font-size: 3rem;
   color: #eb8604;
 }
-.banner .parallax-wrapper div.content-wrapper .info h3 {
+.banner .parallax-wrapper .content-wrapper .info h3 {
   padding-top: 1rem;
   font-size: 4rem;
   color: #fff;
   text-transform: uppercase;
   font: optional;
 }
-.banner .parallax-wrapper div.content-wrapper .info p {
+.banner .parallax-wrapper .content-wrapper .info p {
   margin: 1rem auto;
   max-width: 60rem;
   font-size: 1.5rem;
@@ -414,9 +416,13 @@ section {
     padding-left: 3rem;
   }
   .banner div.parallax-wrapper {
-    height: 173vw;
+    height: 120vw;
   }
   .banner div.parallax-wrapper div.content-wrapper {
-    clip: rect(0, 100vw, 173vw, 0);
+    clip: rect(0, 100vw, 120vw, 0);
+  }
+  .banner div.parallax-wrapper div.content-wrapper .info {
+    padding-top: 30%;
+    padding-bottom: 10%;
   }
 }/*# sourceMappingURL=style.css.map */
