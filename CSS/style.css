@@ -487,6 +487,17 @@ section {
     gap: 1.5rem;
     gap: 0;
   }
+  .features .box-container .box .image {
+    height: 30rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  .features .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   html {
     font-size: 55%;
   }
