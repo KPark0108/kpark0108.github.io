@@ -114,7 +114,7 @@ section{
     margin-top: 6.5rem;
 
     .slide{
-        min-height: 70vh;
+        min-height: 80vh;
         background-size: cover !important;
         background-position: center !important;
         padding: 2rem 9%;
@@ -184,6 +184,55 @@ section{
             i{
                 padding-right: 1.5rem;
                 color: $orange                ;
+            }
+        }
+    }
+}
+
+.review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .information{
+        text-align: center;
+        h3{
+            font-size: 2.5rem;
+            color: $white;
+            padding-top: 1rem; 
+            margin-bottom: 2rem;           
+        }
+    }
+
+    .review-slider{
+        .slide{
+            padding: 2rem 3rem;
+            
+            text-align: center;
+            p{
+                font-size: 1.5rem;
+                line-height: 2;
+                color: $light-white;
+                margin-bottom: 2rem;
+            }
+
+            h3{
+                font-size: 2rem;
+                color: $white;            
+            }
+
+            span{
+                color: $orange;
+                font-size: 1.5rem;
+            }
+            
+            i{
+                font-size: 5rem;
+                margin-left: auto;
+                margin-right: 2rem;
+                color: $orange;
+
             }
         }
     }
@@ -553,6 +602,15 @@ section{
         }
     }
 
+    .review{
+        .review-slider{
+            .slide{        
+                padding: 0;        
+                padding-top: 2rem;
+            }}
+        }
+
+                
     .banner{
         // .banner-container{
         //     background-attachment:initial;
@@ -576,8 +634,21 @@ section{
                 clip: rect(0, $width, $height, 0);
 
                 .info{
-                    padding-top: 30%;
+                    padding-top: 40%;
                     padding-bottom: 10%;
+                    
+                    span{
+                        font-size: 1.8rem;
+                    }
+            
+                    h3{
+                        font-size: 1.8rem;
+                    }
+                    
+                    p{
+                        font-size: 1.5rem;
+                        padding: 0 1rem;
+                    }
             }
         }
         

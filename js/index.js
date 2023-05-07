@@ -29,6 +29,20 @@ var swiper = new Swiper(".home-slider", {
   });
 
 
+   //REVIEW-slider
+
+   var swiper = new Swiper(".review-slider", {
+    spaceBetween: 20,
+    loop: true,
+    centeredSlides: true,
+    grabCursor: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    slidesPerView:'auto',
+  });
+
   //TDEE Calculator
 
   const calculateButton = document.getElementById("calculate-button");

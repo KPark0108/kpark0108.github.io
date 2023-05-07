@@ -92,7 +92,7 @@ section {
   margin-top: 6.5rem;
 }
 .home .slide {
-  min-height: 70vh;
+  min-height: 80vh;
   background-size: cover !important;
   background-position: center !important;
   padding: 2rem 9%;
@@ -152,6 +152,46 @@ section {
 }
 .about .content .box i {
   padding-right: 1.5rem;
+  color: #eb8604;
+}
+
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.review .information {
+  text-align: center;
+}
+.review .information h3 {
+  font-size: 2.5rem;
+  color: #fff;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+.review .review-slider .slide {
+  padding: 2rem 3rem;
+  text-align: center;
+}
+.review .review-slider .slide p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+  margin-bottom: 2rem;
+}
+.review .review-slider .slide h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+.review .review-slider .slide span {
+  color: #eb8604;
+  font-size: 1.5rem;
+}
+.review .review-slider .slide i {
+  font-size: 5rem;
+  margin-left: auto;
+  margin-right: 2rem;
   color: #eb8604;
 }
 
@@ -415,6 +455,10 @@ section {
   .about .content .box .box-p {
     padding-left: 3rem;
   }
+  .review .review-slider .slide {
+    padding: 0;
+    padding-top: 2rem;
+  }
   .banner div.parallax-wrapper {
     height: 120vw;
   }
@@ -422,7 +466,17 @@ section {
     clip: rect(0, 100vw, 120vw, 0);
   }
   .banner div.parallax-wrapper div.content-wrapper .info {
-    padding-top: 30%;
+    padding-top: 40%;
     padding-bottom: 10%;
+  }
+  .banner div.parallax-wrapper div.content-wrapper .info span {
+    font-size: 1.8rem;
+  }
+  .banner div.parallax-wrapper div.content-wrapper .info h3 {
+    font-size: 1.8rem;
+  }
+  .banner div.parallax-wrapper div.content-wrapper .info p {
+    font-size: 1.5rem;
+    padding: 0 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
