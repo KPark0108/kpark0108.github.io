@@ -285,7 +285,7 @@ section {
   height: 2rem;
   width: 2rem;
   background: #fff;
-  border-radius: 0;
+  border-radius: 50%;
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: #eb8604;
