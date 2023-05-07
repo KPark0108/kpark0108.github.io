@@ -477,6 +477,10 @@ section {
   }
 }
 @media (max-width: 450px) {
+  .swiper-pagination-bullet {
+    height: 1rem;
+    width: 1rem;
+  }
   .features .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));

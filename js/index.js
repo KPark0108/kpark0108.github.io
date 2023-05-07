@@ -81,6 +81,7 @@ var swiper = new Swiper(".home-slider", {
     const gender = document.getElementById("gender").value;
     const activityLevel = document.getElementById("activity-level").value;
   
+    console.log(gender)
         // Check if age is within range
      if (age < 0 || age > 100) {
         document.getElementById("result").textContent = "Please enter a valid age between 0 and 100.";
