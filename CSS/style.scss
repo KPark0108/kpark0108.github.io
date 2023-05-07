@@ -283,7 +283,68 @@ section{
         }
     }
 
-    
+    .story-heading{
+        padding: 0;
+        margin-top: 8rem;
+    }
+
+    .story{
+        .slide{
+            background: $black;
+            margin-bottom: 7rem;
+            
+            .image{
+                height: 25rem;
+                width: 100%;
+                overflow: hidden;
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .content{
+                padding: 2rem;
+
+                .link{
+                    padding-bottom: 1.5rem;
+                    font-size: 1.5rem;
+
+                    span{
+                        color: $orange;
+                        padding: 0;
+                    }
+                }
+
+                h3{
+                    font-size: 2rem;
+                    color: $white;
+                    line-height: 1.5;
+                }
+
+                p{
+                    font-size: 1.5rem;
+                    color: $light-white;
+                    line-height: 2;
+                    padding: 1rem 0;
+                }
+            }
+        }
+    }
+
+    .swiper-pagination-bullet{
+        height: 2rem;
+        width: 2rem;
+        background: $white;
+        border-radius: 0;
+      
+        &.swiper-pagination-bullet-active{
+          background: $orange;
+        }
+      } 
+
     // .banner{
     //     padding: 0;
     //      .banner-container{

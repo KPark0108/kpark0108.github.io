@@ -237,6 +237,59 @@ section {
   padding: 1rem 0;
 }
 
+.story-heading {
+  padding: 0;
+  margin-top: 8rem;
+}
+
+.story .slide {
+  background: #000;
+  margin-bottom: 7rem;
+}
+.story .slide .image {
+  height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+.story .slide .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.story .slide .content {
+  padding: 2rem;
+}
+.story .slide .content .link {
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+.story .slide .content .link span {
+  color: #eb8604;
+  padding: 0;
+}
+.story .slide .content h3 {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.5;
+}
+.story .slide .content p {
+  font-size: 1.5rem;
+  color: #aaa;
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+.swiper-pagination-bullet {
+  height: 2rem;
+  width: 2rem;
+  background: #fff;
+  border-radius: 0;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #eb8604;
+}
+
 .banner {
   padding: 0;
   text-align: center;
