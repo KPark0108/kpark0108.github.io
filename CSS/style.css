@@ -267,10 +267,10 @@ section {
 .story .slide {
   background: #000;
   margin-bottom: 7rem;
-  height: 50rem;
+  height: 60rem;
 }
 .story .slide .image {
-  height: 30rem;
+  height: 40rem;
   width: 100%;
   overflow: hidden;
 }
