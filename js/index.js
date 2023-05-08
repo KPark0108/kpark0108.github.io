@@ -46,7 +46,7 @@ var swiper = new Swiper(".home-slider", {
       //Results-slider
 
       var swiper = new Swiper(".results-slider", {
-        spaceBetween: 20,
+        spaceBetween: 40,
         grabCursor: true,
         loop:true,
         autoplay: {
@@ -66,9 +66,6 @@ var swiper = new Swiper(".home-slider", {
             },
             991:{
                 slidesPerView:3,
-            },
-            2000:{
-                slidesPerView:4,
             },
         },
     });
