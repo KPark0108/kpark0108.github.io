@@ -285,15 +285,10 @@ section{
 
 
     .results{
-        padding: 0;
-    }
 
-    .results-heading{
-        padding: 0;
-        margin-top: 8rem;
-    }
-
-    .results{
+        .heading{
+            margin: 5rem 0;
+        }
         .slide{
             background: $black;
             margin-bottom: 7rem;
@@ -433,7 +428,7 @@ section{
                 .image-background {
         
                     &.bg1 {
-                        background-image: url('/images/banner-bg.jpg');
+                        background-image: url('/images/sven-mieke-MsCgmHuirDo-unsplash.jpg');
                     }
         
                     transform: translate3d(0, 0, 0);

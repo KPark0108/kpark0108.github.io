@@ -67,6 +67,9 @@ var swiper = new Swiper(".home-slider", {
             991:{
                 slidesPerView:3,
             },
+            2000:{
+                slidesPerView:4,
+            },
         },
     });
 
