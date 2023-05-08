@@ -48,7 +48,7 @@ var swiper = new Swiper(".home-slider", {
       var swiper = new Swiper(".results-slider", {
         spaceBetween: 20,
         grabCursor: true,
-        loop:false,
+        loop:true,
         autoplay: {
             delay: 4500,
             disableOnInteraction: false,
