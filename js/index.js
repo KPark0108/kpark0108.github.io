@@ -78,7 +78,7 @@ var swiper = new Swiper(".home-slider", {
     const weight = document.getElementById("weight").value;
     const height = document.getElementById("height").value;
     const age = document.getElementById("age").value;
-    const gender = document.getElementById("gender").value;
+    const gender = document.querySelector('input[name="gender"]:checked').value;
     const activityLevel = document.getElementById("activity-level").value;
   
     console.log(gender)
