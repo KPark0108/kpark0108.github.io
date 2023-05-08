@@ -45,7 +45,7 @@ section {
 }
 .heading span {
   font-size: 3rem;
-  color: #eb8604;
+  color: #fcc28c;
   background: #111;
   padding: 0.5rem 1.5rem;
 }
@@ -77,7 +77,7 @@ section {
   font-size: 1.5rem;
 }
 .header .navbar a:hover {
-  background: #eb8604;
+  background: #fcc28c;
 }
 
 #menu-btn {
@@ -104,7 +104,7 @@ section {
 }
 .home .content span {
   font-size: 2rem;
-  color: #eb8604;
+  color: #fcc28c;
   display: block;
 }
 .home .content h3 {
@@ -124,7 +124,7 @@ section {
 }
 .about .content span {
   font-size: 2rem;
-  color: #eb8604;
+  color: #fcc28c;
 }
 .about .content .title {
   font-size: 4rem;
@@ -152,7 +152,7 @@ section {
 }
 .about .content .box i {
   padding-right: 1.5rem;
-  color: #eb8604;
+  color: #fcc28c;
 }
 
 .review {
@@ -185,14 +185,14 @@ section {
   color: #fff;
 }
 .review .review-slider .slide span {
-  color: #eb8604;
+  color: #fcc28c;
   font-size: 1.5rem;
 }
 .review .review-slider .slide i {
   font-size: 5rem;
   margin-left: auto;
   margin-right: 2rem;
-  color: #eb8604;
+  color: #fcc28c;
 }
 
 .features {
@@ -228,7 +228,7 @@ section {
 }
 .features .box-container .content h3 {
   font-size: 2rem;
-  color: #eb8604;
+  color: #fcc28c;
 }
 .features .box-container .content p {
   font-size: 1.5rem;
@@ -266,7 +266,7 @@ section {
   font-size: 1.5rem;
 }
 .story .slide .content .link span {
-  color: #eb8604;
+  color: #fcc28c;
   padding: 0;
 }
 .story .slide .content h3 {
@@ -288,7 +288,7 @@ section {
   border-radius: 50%;
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #eb8604;
+  background: #fcc28c;
 }
 
 .banner {
@@ -327,7 +327,7 @@ section {
 }
 .banner .parallax-wrapper .content-wrapper .info span {
   font-size: 3rem;
-  color: #eb8604;
+  color: #fcc28c;
 }
 .banner .parallax-wrapper .content-wrapper .info h3 {
   padding-top: 1rem;
@@ -351,7 +351,7 @@ section {
 }
 .tdee .information span {
   font-size: 2rem;
-  color: #eb8604;
+  color: #fcc28c;
 }
 .tdee .information h3 {
   font-size: 3rem;
@@ -414,7 +414,7 @@ section {
   font-size: 2.4rem;
   font-weight: bold;
   margin-top: 2rem;
-  color: #eb8604;
+  color: #fcc28c;
 }
 
 table {
