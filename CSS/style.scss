@@ -529,7 +529,16 @@ section{
     }
 
 
-
+    table {
+        width: 100%;
+      }
+      th {
+        width: 25%;
+      }
+      table.center {
+        margin-left: auto; 
+        margin-right: auto;
+      }
 
 
 

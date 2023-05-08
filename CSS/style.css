@@ -417,6 +417,19 @@ section {
   color: #eb8604;
 }
 
+table {
+  width: 100%;
+}
+
+th {
+  width: 25%;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
