@@ -277,7 +277,7 @@ section {
 .story .slide .content p {
   font-size: 1.5rem;
   color: #aaa;
-  line-height: 2;
+  line-height: 1.5;
   padding: 1rem 0;
 }
 
@@ -416,18 +416,6 @@ section {
   margin-top: 2rem;
   color: #eb8604;
 }
-table {
-  width: 100%;
-}
-th {
-  width: 25%;
-}
-table.center {
-  margin-left: auto; 
-  margin-right: auto;
-}
-
-
 
 @media (max-width: 991px) {
   html {
