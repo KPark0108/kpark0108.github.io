@@ -15,7 +15,7 @@ $black: #000;
 $white: #fff;
 $light-white: #aaa;
 $light-bg: #111;
-$orange: #fcc28c;
+$orange: #f5b67b;
 $width: 100vw;
 $height: calc(10/28*#{$width});
 
@@ -282,6 +282,42 @@ section{
             }
         }
     }
+
+
+    .results{
+        padding: 0;
+    }
+
+    .results-heading{
+        padding: 0;
+        margin-top: 8rem;
+    }
+
+    .results{
+        .slide{
+            background: $black;
+            margin-bottom: 7rem;
+            height: 40rem;
+            
+            .image{
+                height: 40rem;
+                width: 100%;
+                overflow: hidden;
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
 
     .story-heading{
         padding: 0;
@@ -730,7 +766,7 @@ section{
                     padding-bottom: 10%;
                     
                     span{
-                        font-size: 1.8rem;
+                        font-size: 2rem;
                     }
             
                     h3{
