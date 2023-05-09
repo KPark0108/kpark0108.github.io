@@ -261,7 +261,7 @@ section{
     .slide{
         
         margin-bottom: 7rem;
-        height: 70rem;
+        height: 65rem;
 
             img{
                 height: 100%;
@@ -759,7 +759,10 @@ section{
             }
             .box{
                 flex: 1 1 12rem;
-                font-size: 1.4rem;
+                
+                h3{
+                    font-size: 1.4rem;
+                }
 
                 .box-p{
                     padding-left: 3rem;

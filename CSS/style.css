@@ -213,7 +213,7 @@ section {
 }
 .bodypf .slide {
   margin-bottom: 7rem;
-  height: 70rem;
+  height: 65rem;
 }
 .bodypf .slide img {
   height: 100%;
@@ -582,6 +582,8 @@ table.center {
   }
   .about .content .box {
     flex: 1 1 12rem;
+  }
+  .about .content .box h3 {
     font-size: 1.4rem;
   }
   .about .content .box .box-p {
