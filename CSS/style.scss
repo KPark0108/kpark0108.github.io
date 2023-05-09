@@ -148,6 +148,12 @@ section{
     .content{
         flex:1 1 42rem;
 
+        img{
+            height: 15rem;
+            width: 15rem;
+        }
+
+
         span{
             font-size: 2rem;
             color: $orange;
@@ -156,7 +162,7 @@ section{
         .title{
             font-size: 4rem;
             color: $white;
-            margin-top: 5rem;
+            margin-top: 2rem;
         }
 
         p{
@@ -753,6 +759,14 @@ section{
 
     .about {
         .content{
+
+            img{
+                height: 10rem;
+                width: 10rem;
+            }
+            p{
+                padding: 1rem 2rem;
+            }
             .box-container{
                 text-align: left;
                 padding-left: 3rem;
@@ -779,6 +793,15 @@ section{
             }}
         }
 
+        .features{
+            .box-container{
+                .content{
+                    p{
+                        padding: 1rem 2rem;            
+                    }
+                }
+            }
+        }
                 
     .banner{
         // .banner-container{

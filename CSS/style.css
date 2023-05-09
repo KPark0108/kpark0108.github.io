@@ -122,6 +122,10 @@ section {
 .about .content {
   flex: 1 1 42rem;
 }
+.about .content img {
+  height: 15rem;
+  width: 15rem;
+}
 .about .content span {
   font-size: 2rem;
   color: #f5b67b;
@@ -129,7 +133,7 @@ section {
 .about .content .title {
   font-size: 4rem;
   color: #fff;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 .about .content p {
   font-size: 1.5rem;
@@ -576,6 +580,13 @@ table.center {
     width: 70px;
     height: 70px;
   }
+  .about .content img {
+    height: 10rem;
+    width: 10rem;
+  }
+  .about .content p {
+    padding: 1rem 2rem;
+  }
   .about .content .box-container {
     text-align: left;
     padding-left: 3rem;
@@ -592,6 +603,9 @@ table.center {
   .review .review-slider .slide {
     padding: 0;
     padding-top: 2rem;
+  }
+  .features .box-container .content p {
+    padding: 1rem 2rem;
   }
   .banner div.parallax-wrapper {
     height: 120vw;
