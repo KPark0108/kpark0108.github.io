@@ -49,10 +49,14 @@ var swiper = new Swiper(".home-slider", {
 //BODY PORTRAIT
   var swiper = new Swiper(".bodypf-slider", {
     spaceBetween: 30,
-    centeredSlides: true,
+    // centeredSlides: true,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
+    },
+    autoplay: {
+        delay: 4500,
+        disableOnInteraction: false,
     },
     breakpoints:{
         0:{

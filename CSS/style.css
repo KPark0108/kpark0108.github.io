@@ -200,7 +200,16 @@ section {
   margin-bottom: 10rem;
 }
 .bodypf .heading {
-  margin: 5rem 0;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.bodypf p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 .bodypf .slide {
   margin-bottom: 7rem;
