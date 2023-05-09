@@ -55,7 +55,7 @@ var swiper = new Swiper(".home-slider", {
       clickable: true,
     },
     autoplay: {
-        delay: 4500,
+        delay: 5000,
         disableOnInteraction: false,
     },
     breakpoints:{
