@@ -160,6 +160,9 @@ section {
 }
 
 .review {
+  background: url(/images/black-painted-wall-textured-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -395,6 +398,11 @@ section {
   font-size: 1.5rem;
   color: #aaa;
   line-height: 2;
+}
+.banner .parallax-wrapper .content-wrapper .info .info-para {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
 }
 
 .tdee {
