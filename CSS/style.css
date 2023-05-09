@@ -217,13 +217,13 @@ section {
 }
 .bodypf .slide {
   margin-bottom: 7rem;
-  height: 65rem;
+  height: 50rem;
 }
 .bodypf .slide img {
   height: 100%;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .features {

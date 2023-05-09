@@ -267,12 +267,12 @@ section{
     .slide{
         
         margin-bottom: 7rem;
-        height: 65rem;
+        height: 50rem;
 
             img{
                 height: 100%;
                 width: 100%;
-                object-fit: cover;
+                object-fit: contain;
             }
     }
 }
