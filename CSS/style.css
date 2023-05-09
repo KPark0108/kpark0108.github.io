@@ -217,7 +217,7 @@ section {
 }
 .bodypf .slide {
   margin-bottom: 7rem;
-  height: 50rem;
+  height: 45rem;
 }
 .bodypf .slide img {
   height: 100%;
@@ -281,10 +281,10 @@ section {
 }
 .results .slide {
   margin-bottom: 7rem;
-  height: 35rem;
+  height: 40rem;
 }
 .results .slide img {
-  height: 35rem;
+  height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
