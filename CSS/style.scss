@@ -238,6 +238,30 @@ section{
     }
 }
 
+
+.bodypf{
+    padding: 0;
+    margin-bottom: 10rem;
+
+    .heading{
+        margin: 5rem 0;
+    }
+    .slide{
+        
+        margin-bottom: 7rem;
+        height: 70rem;
+
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+    }
+}
+
+
+
+
 .features{
     padding: 0
 }

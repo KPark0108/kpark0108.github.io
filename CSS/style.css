@@ -195,6 +195,24 @@ section {
   color: #f5b67b;
 }
 
+.bodypf {
+  padding: 0;
+  margin-bottom: 10rem;
+}
+.bodypf .heading {
+  margin: 5rem 0;
+}
+.bodypf .slide {
+  margin-bottom: 7rem;
+  height: 70rem;
+}
+.bodypf .slide img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .features {
   padding: 0;
 }

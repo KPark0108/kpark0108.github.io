@@ -43,6 +43,30 @@ var swiper = new Swiper(".home-slider", {
     slidesPerView:'auto',
   });
 
+
+
+
+//BODY PORTRAIT
+  var swiper = new Swiper(".bodypf-slider", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints:{
+        0:{
+            slidesPerView:1,
+        },
+        768:{
+            slidesPerView:2,
+        },
+        991:{
+            slidesPerView:4,
+        },
+    },
+  });
+
       //Results-slider
 
       var swiper = new Swiper(".results-slider", {
