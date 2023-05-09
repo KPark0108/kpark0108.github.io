@@ -582,6 +582,7 @@ table.center {
   }
   .about .content .box {
     flex: 1 1 12rem;
+    font-size: 1.4rem;
   }
   .about .content .box .box-p {
     padding-left: 3rem;
