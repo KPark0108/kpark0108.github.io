@@ -492,10 +492,16 @@ table.center {
 }
 
 #contact .content {
-  justify-content: space-around;
+  justify-content: space-between;
   margin: auto;
   width: 100%;
   display: flex;
+}
+#contact .content .box {
+  width: 50%;
+}
+#contact .content .container {
+  padding-left: 20rem;
 }
 #contact .content .container span {
   font-size: 3rem;

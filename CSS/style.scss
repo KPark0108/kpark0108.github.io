@@ -635,13 +635,18 @@ section{
 
         .content{
 
-            justify-content: space-around;
+            justify-content: space-between;
             margin: auto;
             width: 100%;
             display: flex;
+
+            .box{
+                width: 50%;
+            }
             
             .container{
                 
+                padding-left: 20rem;
         
                 span{
                     font-size: 3rem;
