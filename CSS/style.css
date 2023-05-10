@@ -446,8 +446,15 @@ section {
 }
 #tdee .calculator .tdee-info {
   display: flex;
-  justify-content: space-evenly;
   margin-bottom: 1rem;
+  justify-content: space-between;
+  padding-right: 9rem;
+}
+#tdee .calculator .tdee-wh {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  padding-right: 9rem;
 }
 #tdee label {
   color: #fff;
@@ -470,6 +477,10 @@ section {
   border: 0.1rem solid #ccc;
   border-radius: 0.5rem;
   font-size: 1.6rem;
+}
+#tdee input[type=number] .age,
+#tdee select .age {
+  margin-right: 1rem;
 }
 #tdee .activity {
   width: 100%;
@@ -494,19 +505,6 @@ section {
   color: #f5b67b;
 }
 
-table {
-  width: 100%;
-}
-
-th {
-  width: 25%;
-}
-
-table.center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #contact .content {
   justify-content: space-between;
   margin: auto;
@@ -517,6 +515,7 @@ table.center {
 }
 #contact .content .container {
   text-align: center;
+  padding-right: 6rem;
 }
 #contact .content .container .contact-info {
   display: flex;

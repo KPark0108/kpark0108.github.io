@@ -578,9 +578,19 @@ section{
             text-align: center;
 
             .tdee-info{
-                display: flex;
-                justify-content: space-evenly;
+                display: flex;                
                 margin-bottom: 1rem;
+                justify-content: space-between;
+                padding-right: 9rem;
+
+            }
+
+            .tdee-wh{
+                display: flex;                
+                margin-bottom: 1rem;
+                justify-content: space-between;
+                padding-right: 9rem;
+
             }
           }
           
@@ -608,6 +618,10 @@ section{
             border: .1rem solid #ccc;
             border-radius: .5rem;
             font-size: 1.6rem;
+
+            .age{
+                margin-right: 1rem;
+            }
           }
           .activity{
             width: 100%;
@@ -637,18 +651,6 @@ section{
     }
 
 
-    table {
-        width: 100%;
-      }
-      th {
-        width: 25%;
-      }
-      table.center {
-        margin-left: auto; 
-        margin-right: auto;
-      }
-
-
       #contact{
 
         .content{
@@ -663,6 +665,7 @@ section{
             
             .container{
                 text-align: center ;
+                padding-right: 6rem;
                 
                 .contact-info{
 
