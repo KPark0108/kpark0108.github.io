@@ -495,31 +495,37 @@ table.center {
   justify-content: space-between;
   margin: auto;
   width: 100%;
-  display: flex;
 }
 #contact .content .box {
-  width: 50%;
+  width: 100%;
 }
 #contact .content .container {
-  padding-left: 20rem;
+  text-align: center;
 }
-#contact .content .container span {
-  font-size: 3rem;
-  color: #f5b67b;
+#contact .content .container .contact-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
-#contact .content .container h3 {
+#contact .content .container .contact-info .text {
+  margin: 0 3rem;
+}
+#contact .content .container .contact-info .text h3 {
   padding-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
   text-transform: uppercase;
   font: optional;
 }
-#contact .content .container p {
+#contact .content .container .contact-info .text p {
   margin: 1rem auto;
-  max-width: 60rem;
   font-size: 1.5rem;
   color: #aaa;
-  line-height: 2;
+  line-height: 1.5;
+}
+#contact .content .container span {
+  font-size: 3rem;
+  color: #f5b67b;
 }
 
 .footer h3 {
@@ -673,5 +679,8 @@ table.center {
   .banner div.parallax-wrapper div.content-wrapper .info p {
     font-size: 1.5rem;
     padding: 0 1rem;
+  }
+  #contact .content .container .contact-info {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */

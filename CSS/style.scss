@@ -638,36 +638,46 @@ section{
             justify-content: space-between;
             margin: auto;
             width: 100%;
-            display: flex;
 
             .box{
-                width: 50%;
+                width: 100%;
             }
             
             .container{
+                text-align: center ;
                 
-                padding-left: 20rem;
-        
-                span{
-                    font-size: 3rem;
-                    color: $orange;
-                        }
+                .contact-info{
 
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 2rem;
+
+                    .text{
+
+                        margin: 0 3rem;
                     h3{
                         padding-top: 1rem;
-                        font-size: 2rem;
+                        font-size: 1.5rem;
                         color: $white;
                         text-transform: uppercase;                        
                         font: optional;
                     }
 
                     p{
-                        margin: 1rem auto;
-                        max-width: 60rem;
+                        margin: 1rem auto;                        
                         font-size: 1.5rem;
                         color: $light-white;
-                        line-height: 2;
+                        line-height: 1.5;
                     }
+
+                    }
+                }
+        
+                span{
+                    font-size: 3rem;
+                    color: $orange;            
+                        }
+
             }
 
         }
@@ -912,6 +922,16 @@ section{
         }
         
     }
+
+    
       
+}
+
+#contact .content .container{
+
+    .contact-info{
+        flex-direction: column;
+    }
+
 }
 }
