@@ -603,6 +603,12 @@ section {
     display: block;
     font-size: 2rem;
   }
+  #tdee .calculator .tdee-info {
+    padding-right: 2rem;
+  }
+  #tdee .calculator .tdee-wh {
+    padding-right: 0;
+  }
   .about {
     gap: 3rem;
   }
