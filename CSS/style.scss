@@ -564,6 +564,12 @@ section{
             border: 1px solid #ccc;
             border-radius: .5rem;
             text-align: center;
+
+            .tdee-info{
+                display: flex;
+                justify-content: space-evenly;
+                margin-bottom: 1rem;
+            }
           }
           
           label{
@@ -584,7 +590,7 @@ section{
           
           input[type="number"],
           select {
-            width: 70%;
+            width: 20%;
             padding: 1rem;
             margin-bottom: 2rem;
             border: .1rem solid #ccc;
@@ -597,7 +603,7 @@ section{
           }
           
           button {
-            background-color: #4CAF50;
+            background-color: #07640a;
             color: white;
             padding: 1rem 2rem;
             border: none;

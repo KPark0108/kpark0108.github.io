@@ -433,6 +433,11 @@ section {
   border-radius: 0.5rem;
   text-align: center;
 }
+#tdee .calculator .tdee-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
 #tdee label {
   color: #fff;
   font-size: 1.4rem;
@@ -448,7 +453,7 @@ section {
 }
 #tdee input[type=number],
 #tdee select {
-  width: 70%;
+  width: 20%;
   padding: 1rem;
   margin-bottom: 2rem;
   border: 0.1rem solid #ccc;
@@ -460,7 +465,7 @@ section {
   margin-bottom: 2rem;
 }
 #tdee button {
-  background-color: #4CAF50;
+  background-color: #07640a;
   color: white;
   padding: 1rem 2rem;
   border: none;
