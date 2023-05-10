@@ -120,10 +120,12 @@ section{
         padding: 2rem 9%;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .content{
-        width: 60rem;
+        width: 80rem;
+        text-align: center;
 
         span{
             font-size: 2rem;
@@ -131,10 +133,11 @@ section{
             display: block;
         }
 
-        h3{
+        h1{
             font-size: 5rem;
             color: $white;
             padding: 1rem 0;
+
         }
     }
 }
@@ -346,18 +349,13 @@ section{
             
             margin-bottom: 7rem;
             height: 40rem;
-            
-            // .image{
-            //     height: 30rem;
-            //     width: 100%;
-            //     overflow: hidden;
 
                 img{
                     height: 100%;
                     width: 100%;
                     object-fit: cover;
                 }
-            // }
+
         }
     }
 
