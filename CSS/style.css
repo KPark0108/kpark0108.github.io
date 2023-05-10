@@ -405,27 +405,27 @@ section {
   font-weight: 700;
 }
 
-.tdee {
+#tdee {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
   gap: 1.5rem;
 }
-.tdee .information span {
+#tdee .information span {
   font-size: 2rem;
   color: #f5b67b;
 }
-.tdee .information h3 {
+#tdee .information h3 {
   font-size: 3rem;
   padding-top: 0.5rem;
   color: #fff;
 }
-.tdee .information p {
+#tdee .information p {
   line-height: 2;
   padding: 1rem 0;
   font-size: 1.5rem;
   color: #aaa;
 }
-.tdee .calculator {
+#tdee .calculator {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
@@ -433,21 +433,21 @@ section {
   border-radius: 0.5rem;
   text-align: center;
 }
-.tdee label {
+#tdee label {
   color: #fff;
   font-size: 1.4rem;
 }
-.tdee h3 {
+#tdee h3 {
   font-size: 3rem;
   margin-bottom: 2rem;
   color: #fff;
 }
-.tdee label {
+#tdee label {
   display: block;
   margin-bottom: 1rem;
 }
-.tdee input[type=number],
-.tdee select {
+#tdee input[type=number],
+#tdee select {
   width: 70%;
   padding: 1rem;
   margin-bottom: 2rem;
@@ -455,11 +455,11 @@ section {
   border-radius: 0.5rem;
   font-size: 1.6rem;
 }
-.tdee .activity {
+#tdee .activity {
   width: 100%;
   margin-bottom: 2rem;
 }
-.tdee button {
+#tdee button {
   background-color: #4CAF50;
   color: white;
   padding: 1rem 2rem;
@@ -468,10 +468,10 @@ section {
   font-size: 1.6rem;
   cursor: pointer;
 }
-.tdee button:hover {
+#tdee button:hover {
   background-color: #3e8e41;
 }
-.tdee #result {
+#tdee #result {
   font-size: 2.4rem;
   font-weight: bold;
   margin-top: 2rem;
@@ -489,6 +489,36 @@ th {
 table.center {
   margin-left: auto;
   margin-right: auto;
+}
+
+#contact .content {
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+  display: flex;
+}
+#contact .content .container span {
+  font-size: 3rem;
+  color: #f5b67b;
+}
+#contact .content .container h3 {
+  padding-top: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+  font: optional;
+}
+#contact .content .container p {
+  margin: 1rem auto;
+  max-width: 60rem;
+  font-size: 1.5rem;
+  color: #aaa;
+  line-height: 2;
+}
+
+.footer h3 {
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 991px) {
@@ -509,6 +539,9 @@ table.center {
   }
   .home .slide .content h3 {
     font-size: 4rem;
+  }
+  #contact .content {
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {
