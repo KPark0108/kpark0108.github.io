@@ -696,6 +696,9 @@ table.center {
     font-size: 1.5rem;
     padding: 0 1rem;
   }
+  .banner div.parallax-wrapper div.content-wrapper .info .info-para {
+    font-size: 1.5rem;
+  }
   #contact .content .container .contact-info {
     flex-direction: column;
   }
