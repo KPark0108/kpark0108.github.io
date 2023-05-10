@@ -713,6 +713,9 @@ section {
   .banner div.parallax-wrapper div.content-wrapper .info .info-para {
     font-size: 1.5rem;
   }
+  #contact .content .container {
+    padding-right: 0;
+  }
   #contact .content .container .contact-info {
     flex-direction: column;
   }

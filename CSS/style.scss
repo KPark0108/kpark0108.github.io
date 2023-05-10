@@ -978,10 +978,13 @@ section{
       
 }
 
-#contact .content .container{
-
-    .contact-info{
-        flex-direction: column;
+#contact .content {
+    .container{
+        padding-right: 0;
+        .contact-info{
+            flex-direction: column;
+        }
+    
     }
 
 }
