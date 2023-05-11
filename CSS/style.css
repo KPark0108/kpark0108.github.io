@@ -101,7 +101,7 @@ section {
   justify-content: center;
 }
 .home .content {
-  width: 80rem;
+  width: 100rem;
   text-align: center;
 }
 .home .content span {
@@ -110,7 +110,7 @@ section {
   display: block;
 }
 .home .content h1 {
-  font-size: 5rem;
+  font-size: 8rem;
   color: #fff;
   padding: 1rem 0;
 }
