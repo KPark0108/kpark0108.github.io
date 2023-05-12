@@ -53,7 +53,7 @@ var swiper = new Swiper(".home-slider", {
       el: ".swiper-pagination",
       clickable: true,
     },
-    // loop:true,
+    loop:true,
     autoplay: {
         delay: 5000,
         disableOnInteraction: false,
@@ -104,7 +104,7 @@ var swiper = new Swiper(".home-slider", {
     var swiper = new Swiper(".story-slider", {
         spaceBetween: 20,
         grabCursor: true,
-        loop:false,
+        loop:true,
         autoplay: {
             delay: 4500,
             disableOnInteraction: false,
