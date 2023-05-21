@@ -62,6 +62,9 @@ section {
   background: black;
   z-index: 1000;
 }
+.header .merch {
+  display: none;
+}
 .header .logo {
   font-weight: bolder;
   color: #fff;
