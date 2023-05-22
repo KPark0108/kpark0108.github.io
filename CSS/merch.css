@@ -95,7 +95,12 @@
     }
   
     .gallery{
-      display: none;
+      flex-direction: column;
+      padding: 0;
+    }
+
+    .galleryItem{
+        padding: 10px;
     }
   
     .newSeason{
