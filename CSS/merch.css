@@ -87,18 +87,6 @@
   
   
   
-  .products .box-container .box .content .fa-heart,
-  .products .box-container .box .content .fa-eye{
-    margin-left: .5rem;
-  }
-  
-  .products .box-container .box .content .fa-shopping-cart:hover,
-  .products .box-container .box .content .fa-heart:hover,
-  .products .box-container .box .content .fa-eye:hover{
-    color: white;
-    transition: .4s linear;
-  }
-  
 
 /* deliver */
 
@@ -213,11 +201,21 @@
   
   @media screen and (max-width:480px) {
   
-    .buyButton{
-      right: 0;
-      top: 0;
+    .heading{
+        margin-bottom: 3rem;
+        font-size: 3rem;
     }
+    
+    .products .box-container{
+        grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+      }
   
+
+      .deliver .box-container{
+        flex-direction: column;
+      }
+
+
     .features{
       flex-direction: column;
     }
