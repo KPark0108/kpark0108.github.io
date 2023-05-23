@@ -29,40 +29,10 @@
     line-height: 2;
   }
 
-  .features {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10rem;
-    background-color: white;
-  }
-  
-  .feature {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .featureIcon {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .featureTitle {
-    font-size: 20px;
-    font-weight: 600;
-    margin: 20px;
-  }
-  
-  .featureDesc {
-    color: gray;
-    width: 50%;
-    height: 100px;
-  }
 
   .products{
-    background: white;
+    background: #f9f9f9;
+    font-size: 3rem;
   }
   
   .products .box-container{
@@ -72,11 +42,9 @@
   }
   
   .products .box-container .box{
-    background: var(--white);
+    background: #f9f9f9;
     border-radius: .5rem;
-    box-shadow: var(--box-shadow);
     height: 100%;
-    border: var(--border);
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -107,7 +75,7 @@
   }
   
   .products .box-container .box .content h3{
-    color: var(--black);
+    color: black;
     font-size: 2.2rem;
   }
   
@@ -128,8 +96,6 @@
   .products .box-container .box .content .fa-heart:hover,
   .products .box-container .box .content .fa-eye:hover{
     color: white;
-    background: var(--primary);
-    box-shadow: var(--box-shadow);
     transition: .4s linear;
   }
   
@@ -199,7 +165,7 @@
   .gallery {
     padding: 50px;
     display: flex;
-    background-color: white;
+    background-color: #f9f9f9;
   }
   
   .galleryItem {
