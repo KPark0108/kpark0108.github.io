@@ -30,6 +30,9 @@
   }
 
 
+
+  /* PRODUCT */
+
   .products{
     background: #f9f9f9;
     font-size: 3rem;
@@ -43,7 +46,6 @@
   
   .products .box-container .box{
     background: #f9f9f9;
-    border-radius: .5rem;
     height: 100%;
     position: relative;
     overflow: hidden;
