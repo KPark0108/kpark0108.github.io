@@ -138,8 +138,9 @@
   
   .featureDesc {
     color: gray;
-    width: 50%;
+    width: 60%;
     height: 100px;
+    font-size: 1.3rem;
   }
 
 
