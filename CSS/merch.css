@@ -311,6 +311,10 @@
     .features{
       flex-direction: column;
     }
+
+    .features .feature .featureDesc{
+        font-size: 1.5rem;
+    }
   
     .gallery{
       flex-direction: column;
