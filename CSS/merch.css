@@ -1,6 +1,24 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
 
+.section{
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.section__container{
+    max-width: 1400px;
+    margin: auto;
+    
+}
+
+.section__container__flex{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+}
+
 .home{
     min-height: 70vh;
     display: flex;
@@ -114,8 +132,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5rem 20rem; 
     background-color: white;
+    padding-top: 5rem;
   }
   
   .feature {
@@ -123,6 +141,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0 5rem;
   }
   
   .featureIcon {
@@ -267,7 +286,11 @@
     }
 
     .features{
-        padding: 5rem 5rem;
+        padding: 5rem 0;
+    }
+
+    .section__container__flex{
+        flex-direction: column;
     }
 
     .featureTitle {
