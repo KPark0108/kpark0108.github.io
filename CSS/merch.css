@@ -19,7 +19,21 @@
     display: flex;
 }
 
-
+.heading {
+    text-align: center;
+    margin-bottom: 5rem;
+    position: relative;
+  }
+  .heading::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 1rem;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+  }
 
 .home{
     min-height: 70vh;
