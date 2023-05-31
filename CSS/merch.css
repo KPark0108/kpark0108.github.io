@@ -34,6 +34,14 @@
     background-color: black;
     z-index: -1;
   }
+  
+  video{
+    margin-top: 7rem;
+  }
+
+  .videos{
+    text-align: center;
+  }
 
 .home{
     min-height: 70vh;
@@ -291,11 +299,18 @@
     font-weight: 600;
     cursor: pointer;
   }
+
+  @media (max-width:1400px){
+    video{
+        width: 100%;
+    }
+  }
   
   @media (max-width:991px){
     .galleryItem{
         padding:1rem
     }
+
   }
 
   @media (max-width:768px){
